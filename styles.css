@@ -1,3 +1,9 @@
-.blablabla {
+.headtext {
     color: white;
+    font: bold;
+}
+
+.maintext {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
