@@ -1,6 +1,7 @@
 .headtext {
     color: white;
-    font: bold;
+    font-style: bold;
+    font: size 16px;
 }
 
 .maintext {
