@@ -2,11 +2,12 @@
     color: white;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
 .headtext {
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     row-gap: 35px;
 }
