@@ -23,6 +23,7 @@
 .textbox {
     padding: 45px;
     border-radius: 12px;
-    max-width: 500px;
+    max-width: 600px;
+    max-width: 200px;
     margin-bottom: 20px;
 }
