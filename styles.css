@@ -25,11 +25,11 @@
     border-radius: 50px;
     max-width: 400px;
     margin-bottom: 20px;
-    display: flex;
-    align-items: flex-start;
+
 }
 
 .textbox-container {
     display: flex;
     align-items: flex-start;
+    gap: 25px;
 }
