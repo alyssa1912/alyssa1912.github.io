@@ -19,3 +19,11 @@
 .pictures {
   border-radius: 20px;
 }
+
+.textbox {
+    padding: 15px;
+    border-radius: 12px;
+    max-width: 600px;
+    background: rgb(207, 209, 79);
+    margin-bottom: 20px;
+}
