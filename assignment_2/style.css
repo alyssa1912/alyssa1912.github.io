@@ -29,10 +29,11 @@ a {
 nav ul {
   list-style: none;
   display: flex;
-  gap: 30px;
+  gap: 40px;
+  /*want to change the underline and colour*/
 }
 
-.double-border {
+.border {
   border: 6px rgb(209, 128, 58);
   border-radius: 25px;
   padding: 10px;
@@ -54,15 +55,17 @@ video {
   /* margin-bottom: 10px; */
 }
 
-.main-screen {
-  //background-color: antiquewhite; *//
+/*.main-screen {
+  background-color: antiquewhite; 
   padding: 10px;
-  width: 100%;
+  width: 100%; 
 }
+  */
 
+/* this is space between ICONS and line between playlist items */
 .controls {
   gap: 10px;
-  padding: 5px;
+  padding: 20px;
 }
 
 .playlist {
@@ -71,8 +74,10 @@ video {
   align-items: center;
   gap: 10px;
 
-  padding: 10px;
-  border-bottom: 6px double rgb(209, 128, 58);
+  padding: 20px;
+  border: 6px solid rgb(239, 161, 145);
+  /* border-bottom for just the line in between */
+  border-radius: 20px;
 }
 
 #progress-bar-container {
@@ -102,12 +107,12 @@ button {
 }
 
 button:hover {
-  scale: 0.9;
+  scale: 1.1;
   background-color: rgb(255, 181, 167);
 }
 
 #likes {
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   color: rgb(168, 55, 55);
 }
 
