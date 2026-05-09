@@ -1,3 +1,11 @@
+
+
+h1 {
+  text-align: left;
+  margin: 0;
+}
+
+
 body {
   display: flex;
   margin: 0 auto;
@@ -9,10 +17,10 @@ body {
   font-optical-sizing: auto;
   font-weight: 300;
   color: rgb(212, 172, 148);
-}
-body {
+
   background-color: rgb(240, 230, 226);
 }
+
 
 a {
   color: rgb(202, 151, 122);
@@ -25,8 +33,9 @@ nav ul {
 }
 
 .double-border {
-  border: 6px double  rgb(209, 128, 58);
-  border-radius: 16px;
+  border: 6px rgb(209, 128, 58);
+  border-radius: 25px;
+  padding: 10px;
 }
 
 video {
@@ -36,10 +45,6 @@ video {
   border-radius: 12px;
 }
 
-h1 {
-  font-size: 2.3rem;
-  font-weight: bold;
-}
 .main-screen,
 .controls {
   display: flex;
@@ -50,7 +55,7 @@ h1 {
 }
 
 .main-screen {
-  //background-color: antiquewhite; */
+  //background-color: antiquewhite; *//
   padding: 10px;
   width: 100%;
 }
