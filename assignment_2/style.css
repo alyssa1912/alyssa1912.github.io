@@ -55,13 +55,6 @@ video {
   /* margin-bottom: 10px; */
 }
 
-/*.main-screen {
-  background-color: antiquewhite; 
-  padding: 10px;
-  width: 100%; 
-}
-  */
-
 /* this is space between ICONS and line between playlist items */
 .controls {
   gap: 10px;
