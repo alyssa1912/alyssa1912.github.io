@@ -1,8 +1,22 @@
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  width: 100%;
+  text-align: left;
+
+  position: relative;
+  background-color: white;
+  padding: 20px 40px;
+}
 
 h1 {
+  color: black;
   text-align: left;
-  margin: 0;
+  font-size: 30px;
+  margin 0;
 }
 
 
@@ -23,14 +37,17 @@ body {
 
 
 a {
-  color: rgb(202, 151, 122);
+  color: rgb(122, 122, 122);
+  text-decoration: none;
+  text-align: flex;
+  
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  gap: 40px;
-  /*want to change the underline and colour*/
+  text-align: center; 
+  gap: 50px;
 }
 
 .border {
