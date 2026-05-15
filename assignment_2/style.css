@@ -65,11 +65,10 @@ nav ul {
 }
 
 .right-side {
-  width: auto;
+  margin-top: 0px;
   max-width: 800px;
   padding: 20px;
 }
-
 
 
 .recipe-title {
@@ -151,7 +150,7 @@ nav ul {
 }
 
 .instructions h3 {
-  margin-top: 230px;
+  margin-top: 200px;
   font-size: 1.5rem;
   color: rgb(60, 40, 30);
   font-family: "SF Pro Rounded", sans-serif;
@@ -219,22 +218,27 @@ video {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 800px;
   gap: 10px;
   padding: 20px;
+  
+    padding: 20px;
+  border: 5px solid rgb(239, 161, 145);
+  /* border-bottom for just the line in between */
+  border-radius: 100px;
 }
 
 .playlist {
-  width: 800px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 10px;
-
   padding: 20px;
-  border: 5px solid rgb(239, 161, 145);
-  /* border-bottom for just the line in between */
-  border-radius: 100px;
+}
+
+.controls,
+.playlist {
+  width: 100%;
+  max-width: 800px;
 }
 
 #progress-bar-container {

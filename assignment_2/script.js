@@ -57,19 +57,6 @@ function toggleAudio() {
   }
 }
 
-const stardustButton = document.querySelector("#stardust-vid-button");
-console.log(stardustButton);
-
-stardustButton.addEventListener("click", function chooseVideo() {
-  playVideo(0);
-});
-
-const zenscapeButton = document.querySelector("#zenscape-vid-button");
-console.log(zenscapeButton);
-
-zenscapeButton.addEventListener("click", function chooseVideo() {
-  playVideo(1);
-});
 
 const musicVideoButton = document.querySelector("#recipevideo-vid-button");
 console.log(musicVideoButton);
@@ -149,3 +136,4 @@ saveButton.addEventListener("click", function () {
   saveButton.textContent = "Saved to collection";
   saveButton.style.backgroundColor = "rgba(249, 197, 197, 0.588)";
 });
+
