@@ -258,8 +258,7 @@ video {
   
 }
  
-/* i asked chat gpt how to make the button hover effect smoother,
-which is how i implemented the transition code*/
+
 button {
   cursor: pointer;
   padding: 10px;
