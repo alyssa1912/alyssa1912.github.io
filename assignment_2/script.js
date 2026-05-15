@@ -141,3 +141,11 @@ function fastForward() {
     myVideo.playbackRate = 1.0;
   }
 }
+
+
+const saveButton = document.getElementById("save-recipe-button");
+
+saveButton.addEventListener("click", function () {
+  saveButton.textContent = "Saved to collection";
+  saveButton.style.backgroundColor = "rgba(249, 197, 197, 0.588)";
+});
