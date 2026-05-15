@@ -79,7 +79,7 @@ nav ul {
 }
 
 .recipe-description {
-  font-size: 1.0rem;
+  font-size: 1.1rem;
   color: rgb(120, 90, 70);
 }
 
@@ -103,21 +103,21 @@ nav ul {
 
 .recipe-info-card h3 {
   font-size: 0.9rem;
-  letter-spacing: 1px;
   color: rgb(150, 110, 90);
   margin-bottom: 6px;
 }
 
 .recipe-info-card p {
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: 300;
   font-family: "SF Pro Rounded", sans-serif;
   color: rgb(60, 40, 30);
   margin: 0;
 }
 
 .ingredients {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
+  width: 300px;
   padding: 25px;
   margin-top: 60px;
   border-radius: 20px;
@@ -137,12 +137,61 @@ nav ul {
 .ingredients ul {
   padding-left: 45px;  
   margin: 0;
-  
 }
 
 .ingredients li {
   margin-bottom: 20px;
 }
+
+.instructions {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.instructions h3 {
+  font-size: 1.2rem;
+  color: rgb(60, 40, 30);
+  font-family: "SF Pro Rounded", sans-serif;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  font-family: "SF Pro Rounded", sans-serif;
+}
+
+.step h4 {
+  font-size: 1.4rem;
+  color: rgb(60, 40, 30);
+  font-family: "SF Pro Rounded", sans-serif;
+}
+
+.step p {
+  font-size: 1.1rem;
+  color: rgb(184, 109, 84);
+  font-family: "SF Pro Rounded", sans-serif;
+  font-weight: 200;
+}
+
+.step-number {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(253, 163, 145);
+
+  color: rgb(112, 59, 49);
+  font-family: "SF Pro Rounded", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
 
 .border {
   border: 6px rgb(209, 128, 58);
@@ -189,7 +238,7 @@ video {
 #progress-bar-container {
   width: 100%;
   height: 10px;
-  background-color: gray;
+  background-color: rgb(174, 174, 174);
   border-radius: 20px;
   
 }
