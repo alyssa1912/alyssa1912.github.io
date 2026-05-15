@@ -1,6 +1,6 @@
 const videoList = [
-  { id: 1, src: "stardust.mp4" },
-  { id: 2, src: "zenscape.mp4" },
+  { id: 1, src: "https://thelongesthumstore.sgp1.cdn.digitaloceanspaces.com/IM-2250/miac.mp4" },
+  { id: 2, src: "https://thelongesthumstore.sgp1.cdn.digitaloceanspaces.com/IM-2250/miac.mp4" },
   {
     id: 3,
     src: "https://thelongesthumstore.sgp1.cdn.digitaloceanspaces.com/IM-2250/miac.mp4",
@@ -71,7 +71,7 @@ zenscapeButton.addEventListener("click", function chooseVideo() {
   playVideo(1);
 });
 
-const musicVideoButton = document.querySelector("#musicvideo-vid-button");
+const musicVideoButton = document.querySelector("#recipevideo-vid-button");
 console.log(musicVideoButton);
 
 musicVideoButton.addEventListener("click", function chooseVideo() {
