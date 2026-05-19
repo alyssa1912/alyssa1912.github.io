@@ -4,11 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+<style>
+
+    #button-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    #button {
+        background-color: rgb(238, 110, 131);
+        color: black;
+        font-size: 1.2rem;
+        border-radius: 20px;
+        width: 150px;
+        height: 100px;
+
+        cursor: pointer;
+        border: none;
+        transition: background-color 6s ease, transform 6s ease;
+    }
+
+    #button:hover {
+    scale: 1.1;
+    background-color: rgb(116, 203, 246);
+    transform: rotate(720deg) scale(0.5);
+    }
+
+</style>
+
+
 </head>
 <body>
 
     <div>
-        <button class="button-container" id="button1">press me</button>
+        <button class="button-container" id="button">press me</button>
     </div>
 
 </body>
