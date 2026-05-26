@@ -1,3 +1,5 @@
+console.log("JS is connected");
+
 document.addEventListener("mousemove", (e) => {
   const flower = document.createElement("div");
   flower.classList.add("flower");
