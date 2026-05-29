@@ -1,28 +1,18 @@
-.flower {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: #ff9ecb;
-    border-radius: 100%;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-    animation: fadeOut 5s forwards;
-  }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
 
-  .flower::before,
-  .flower::after {
-    content: "";
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background: rgba(255, 158, 203, 0.6);
-    border-radius: 50%;
-  }
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  margin: 0;
+  font-family: 'Libre Baskerville', serif;
+}
 
-  .flower::before { top: -5px; left: 0; }
-  .flower::after { left: -5px; top: 0; }
-
-  @keyframes fadeOut {
-    0% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
-    100% { opacity: 0; transform: translate(-50%, -50%) scale(0.5); }
-  }
+h2 {
+  color: rgb(177, 121, 121);
+  
+}
