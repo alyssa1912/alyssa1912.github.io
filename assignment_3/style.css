@@ -13,6 +13,23 @@ h1 {
 }
 
 h2 {
-  color: rgb(177, 121, 121);
-  
+  color: rgb(170, 119, 119);
+  font-family: "SF Pro Rounded", sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.butterfly-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  border-top: 1px solid #333;
+  border-left: 1px solid #333;
+}
+
+.img-cell {
+  height: 300px;
+  border-right: 1px solid rgb(20, 12, 17);
+  border-bottom: 1px solid rgb(20, 12, 17);
+
 }
