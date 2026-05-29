@@ -1,13 +1,12 @@
 .flower {
     position: absolute;
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     background: #ff9ecb;
-    border-radius: 50%;
+    border-radius: 100%;
     transform: translate(-50%, -50%);
     pointer-events: none;
-    opacity: 0.9;
-    animation: fadeOut 2.5s forwards;
+    animation: fadeOut 5s forwards;
   }
 
   .flower::before,
