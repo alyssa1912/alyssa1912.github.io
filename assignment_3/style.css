@@ -6,8 +6,10 @@ header {
 }
 
 h1 {
-  color: rgb(255, 255, 255);
-  font-size: 30px;
+  color: rgb(255, 216, 216);
+  font-size: 50px;
+  font-weight: 200;
+  font-style: italic;
   margin: 0;
   font-family: 'Libre Baskerville', serif;
 }
@@ -28,6 +30,11 @@ h2 {
 
 .img-cell {
   height: 300px;
+}
+
+.img-cell:hover {
+  background-color: rgb(20, 12, 17); 
+  transition: background-color 0.3s ease;
 }
 
 .butterfly {
