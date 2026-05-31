@@ -23,18 +23,13 @@ h2 {
 
 .butterfly-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
 
 }
 
 .img-cell {
-  height: 300px;
-}
-
-.img-cell:hover {
-  background-color: rgb(20, 12, 17); 
-  transition: background-color 0.3s ease;
+  height: 210px;
 }
 
 .butterfly {
@@ -48,9 +43,9 @@ h2 {
 .butterfly img {
   height: 90%;          /* proportions */
   width: auto;          /* normal width */
-  transform: scaleX(0.5); 
-  transition: transform 0.5s ease, filter 0.8s ease;
-  /* filter: grayscale(100%) brightness(0.4);   */
+  transform: scaleX(0.6); 
+  transition: transform 0.2s ease, filter 0.2s ease;
+  filter: grayscale(100%) brightness(0.4);   
   transform-origin: center;
 }
 
