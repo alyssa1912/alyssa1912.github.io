@@ -53,3 +53,26 @@ h2 {
   transform: scaleX(1);
   filter: grayscale(0%) brightness(1);
 }
+
+
+
+.butterfly-label {
+  text-align: center;
+  opacity: 0;
+  transform: translateY(5px); /*transition to make it move upwards*/
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.img-cell:hover .butterfly-label {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.species-name {
+  color: #c8d8f0;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-style: italic;
+  font-size: 14px;
+  margin: 0;
+}
+  
