@@ -11,21 +11,34 @@
 
 <!--I chose to create a grid layout for the butterfly images to make the layout look neat and organised.
 I wanted to use a dark theme for the background that would make my butterfly images more vibrant and 
-stand out.
-At the top I made a header for the title and used Italic to give it a cursive, elegant look. I also
-made the colour a light shade of pink. Theres a subheading that explains what action the user has to take.
-4 classes - 
-.butterfly-grid (organises the images into a grid of 3x5)
-.img-cell (i used this to adjust the image container which changes the height between images above and below them)
-.butterfly-label
-.butterfly-->
+stand out.-->
 
 <body style="background-color: rgb(12, 10, 11);">
     
+    <!--At the top I made a header for the title and used Italic to give it a cursive, elegant look. I also
+    made the colour a light shade of pink. Theres a subheading that explains what action the user has to take.-->
+
     <header>
       <h1>The Butterfly Collection</h1>
       <h2>HOVER TO OPEN WINGS</h2>
     </header>
+
+    <!--4 classes - 
+        .butterfly-grid (i used to organise the images into a grid of 3x5, initally i had 3x3 but i wanted to 
+            add more images as it filled up more space on the screen and made it look less empty.)
+        
+        .img-cell (i used this to adjust the image container which changes the height between images above and below them)
+        
+        .butterfly img:hover (i used the original image and transformed it to be greyscale and shorter 
+        on the x axis to create an effect on the wings and make it look like they are half closed.
+        On hover the image changes to the original to make it seem like the wings open.)
+
+        .butterfly-label (a centred label of the species name that appears below each image. it has 0 opacity by 
+        default, but when hovered over, the opacity is changed to 1, making it visible. 
+        I also added a transition effect to make the label fade in upwards smoothly.)
+
+        -->
+
 
     <div class="butterfly-grid">
 
