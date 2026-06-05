@@ -54,10 +54,9 @@ h2 {
   filter: grayscale(0%) brightness(1);
 }
 
-
 .butterfly-label {
   text-align: center;
-  opacity: 0;
+  opacity: 0;                  /*makes it invisible until hovered over*/
   transform: translateY(5px); /*transition to make it move upwards*/
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
