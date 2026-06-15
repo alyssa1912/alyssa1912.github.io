@@ -11,11 +11,12 @@ h1 {
   font-weight: 200;
   font-style: italic;
   margin: 0;
+  margin-bottom: 0px;
   font-family: 'Libre Baskerville', serif;
 }
 
 h2 {
-  color: rgb(170, 119, 119);
+  color: rgb(228, 148, 160);
   font-family: "SF Pro Rounded", sans-serif;
   font-size: 14px;
   font-weight: 100;
